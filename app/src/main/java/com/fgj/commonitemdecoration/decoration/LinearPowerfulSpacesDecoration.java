@@ -106,7 +106,7 @@ public class LinearPowerfulSpacesDecoration extends RecyclerView.ItemDecoration 
                 break;
             }
 
-            if (mListTopSpace > 0 && isFirstItem(child, parent)) {
+            if (mListLeftSpace > 0 && isFirstItem(child, parent)) {
                 right = child.getLeft();
                 left = right - mDividerDrawable.getIntrinsicWidth();
                 mDividerDrawable.setBounds(left, top + mListTopSpace, right, bottom - mListBottomSpace);
