@@ -1,6 +1,10 @@
+# Android Studio
 *.iml
 .gradle
 /local.properties
+.idea
+.idea/compiler.xml
+.idea/misc.xml
 /.idea/caches/build_file_checksums.ser
 /.idea/libraries
 /.idea/modules.xml
@@ -9,3 +13,29 @@
 /build
 /captures
 .externalNativeBuild
+
+# generated file
+gen/
+
+# Log Files
+*.log
+
+# project
+app/libs/aar/
+app/mapping/
+
+# others
+temp.txt
+tmp.txt
+UserInterfaceState.xcuserstate
+dump.rdb
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
